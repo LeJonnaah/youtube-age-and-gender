@@ -9,5 +9,25 @@
         "User-specified": {
             "percentage": 20
         }
+    },
+    "ages": {
+        "18-24": {
+            "percentage": 30
+        },
+        "25-34": {
+            "percentage": 50
+        },
+        "35-44": {
+            "percentage": 20
+        },
+        "45-54": {
+            "percentage": 10
+        },
+        "55-64": {
+            "percentage": 5
+        },
+        "65+": {
+            "percentage": 5
+        }
     }
 }
