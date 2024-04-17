@@ -1,0 +1,13 @@
+{
+    "gender": {
+        "Female": {
+            "percentage": 30
+        },
+        "Male": {
+            "percentage": 50
+        },
+        "User-specified": {
+            "percentage": 20
+        }
+    }
+}
