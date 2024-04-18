@@ -40,12 +40,17 @@ body {
   }
   
   #chart {
-    margin-top: 20px;
+    margin-top: 50px;
   }
   
   .bar-container {
     margin-bottom: 50px;
     position: relative;
+  }
+
+  hr {
+    margin-bottom: 50px;
+    border-color: #282828;
   }
   
   .bar {
