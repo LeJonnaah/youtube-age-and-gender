@@ -7,7 +7,7 @@ fetch('data.json')
     const chartContainer = document.getElementById('chart');
 
     // Create a container element for the bars
-    
+
     // Loop through each gender and create a bar element
     Object.entries(genderData).forEach(([gender, { percentage }]) => {
       const barContainer = document.createElement('div');
@@ -25,7 +25,7 @@ fetch('data.json')
       genderLabel.classList.add("gender-label");
       genderLabel.textContent = gender; // Set the text content of the country label
       barContainer.appendChild(genderLabel); // Add the country label to the bar container
-  
+
 
       barContainer.appendChild(bar);
       chartContainer.appendChild(barContainer);
