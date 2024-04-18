@@ -1,7 +1,7 @@
 body {
   background-color: #282828;
-  color: #fff;
-  font-family: "Roboto", "Arial", sans-serif;
+  color: #eee;
+  font-family: "Roboto","Arial",sans-serif;
 }
 
 main {
@@ -10,13 +10,12 @@ main {
   background-color: #282828;
   border-radius: 5px;
   cursor: pointer;
-  color: #fff;
   margin-bottom: 20px;
-  font-weight: bold;
 }
 
 .span {
-  color: gray;
+  color: #afafaf;
+  font-weight: normal;
 }
 
 .age-and-gender {
@@ -32,8 +31,10 @@ main {
 }
 
 h2 {
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
+
 
 .filters {
   margin-bottom: 20px;
@@ -44,26 +45,21 @@ h2 {
 }
 
 .bar-container {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   position: relative;
 }
 
 hr {
-  margin-bottom: 50px;
+  margin: 50px 0;
   border-color: #282828;
 }
 
 .bar {
   position: relative;
-  /* Posición relativa para que los elementos secundarios estén posicionados relativamente a este */
   background-color: #BC6AF3;
-  /* Color de las barras */
-  color: #fff;
-  /* Color del texto dentro de las barras */
-  padding: 7px;
-  right: 60px;
+  padding: 6px;
+  right: 65px;
   overflow: hidden;
-  /* Oculta el contenido que se desborda */
   border-radius: 40px;
   margin-left: auto;
 }
@@ -89,38 +85,6 @@ hr {
 .percentage-label {
   position: absolute;
   right: 5px;
-  color: white;
   font-size: 14px;
-}
-
-.buttons {
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  gap: 10px;
-  font-weight: bolder;
-}
-
-.filter-button.selected {
-  background-color: #2E3A43;
-  color: #3486D5;
-  border: #2E3A43 1px solid;
-}
-
-.buttons button {
-  border: #4b4949 1px solid;
-  padding: 10px 20px;
-  background-color: #282828;
-  border-radius: 40px;
-  cursor: pointer;
-  color: #fff;
-}
-
-.all-videos {
-  background-color: #007bff;
-}
-
-.shorts {
-  background-color: #282828;
-  color: #333;
+  top: -2px;
 }
