@@ -7,7 +7,7 @@ body {
 }
 
 main {
-  border: #4b4949 1px solid;
+  border: #3f3f3f 1px solid;
   padding: 30px;
   background-color: #282828;
   border-radius: 5px;
@@ -52,7 +52,7 @@ h2 {
 
 hr {
   margin: 50px 0;
-  border-color: #282828;
+  border-color: #3f3f3f;
 }
 
 .bar {
