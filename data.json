@@ -4,7 +4,7 @@
             "percentage": 30
         },
         "Male": {
-            "percentage": 80
+            "percentage": 50
         },
         "User-specified": {
             "percentage": 20
@@ -31,6 +31,74 @@
         },
         "65+": {
             "percentage": 5
+        }
+    },
+    "gender": {
+        "Female": {
+            "percentage": 25
+        },
+        "Male": {
+            "percentage": 55
+        },
+        "User-specified": {
+            "percentage": 20
+        }
+    },
+    "ages": {
+        "13-17": {
+            "percentage": 5
+        },
+        "18-24": {
+            "percentage": 35
+        },
+        "25-34": {
+            "percentage": 60
+        },
+        "35-44": {
+            "percentage": 25
+        },
+        "45-54": {
+            "percentage": 15
+        },
+        "55-64": {
+            "percentage": 10
+        },
+        "65+": {
+            "percentage": 10
+        }
+    },
+    "gender": {
+        "Female": {
+            "percentage": 35
+        },
+        "Male": {
+            "percentage": 45
+        },
+        "User-specified": {
+            "percentage": 20
+        }
+    },
+    "ages": {
+        "13-17": {
+            "percentage": 15
+        },
+        "18-24": {
+            "percentage": 25
+        },
+        "25-34": {
+            "percentage": 40
+        },
+        "35-44": {
+            "percentage": 15
+        },
+        "45-54": {
+            "percentage": 5
+        },
+        "55-64": {
+            "percentage": 2
+        },
+        "65+": {
+            "percentage": 1
         }
     }
 }

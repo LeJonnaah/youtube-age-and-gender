@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleButton = document.getElementById('toggleButton');
+toggleButton.addEventListener('click', function () {
+  invertColors();
+});
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
@@ -48,3 +53,26 @@ fetch('data.json')
       chartContainer2.appendChild(barContainer);
     });
   });
+});
+
+function invertColors() {
+  document.body.classList.toggle('inverted');
+  const mainElement = document.querySelector('main');
+  mainElement.classList.toggle('inverted');
+  const barContainers = document.querySelectorAll('.bar');
+  barContainers.forEach(container => {
+    container.classList.toggle('inverted');
+  })
+  const percentageLabels = document.querySelectorAll('.percentage-label');
+  percentageLabels.forEach(label => {
+    label.classList.toggle('inverted');
+  })
+  const hr = document.querySelectorAll('hr');
+  hr.forEach(hr => {
+    hr.classList.toggle('inverted');
+  })
+  const genderLabels = document.querySelectorAll('.gender-label');
+  genderLabels.forEach(label => {
+    label.classList.toggle('inverted');
+  })
+}

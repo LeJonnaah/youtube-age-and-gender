@@ -6,6 +6,11 @@ body {
   font-family: "Roboto","Arial",sans-serif;
 }
 
+body.inverted {
+  background-color: #fff;
+  color: #000;
+}
+
 main {
   border: #3f3f3f 1px solid;
   padding: 30px;
@@ -16,6 +21,12 @@ main {
   width: 600px;
   margin: 0 auto;
   max-width: 100%;
+}
+
+main.inverted {
+  background-color: #fff;
+  color: #000;
+  border: #E5E5E5 1px solid;
 }
 
 .span {
@@ -58,16 +69,24 @@ hr {
   border-color: #3f3f3f;
 }
 
+hr.inverted {
+  border-color: white;
+}
+
 .bar {
   position: relative;
   background-color: #bc6af3;
-  padding: 4px;
+  padding: 5px;
   right: 65px;
   border-radius: 100px;
   margin-left: auto;
   max-width: 100%;
   transform: scaleX(0.6);
   transform-origin: right;
+}
+
+.bar.inverted {
+  background-color: #BE69F2;
 }
 
 .see-more {
@@ -94,4 +113,22 @@ hr {
   font-size: 15px;
   top: -2px;
   font-weight: 500;
+}
+
+.gender-label.inverted .percentage-label.inverted {
+  font-weight: normal;
+}
+
+#toggleButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#toggleButton.inverted {
+  background-color: #fff;
+  color: #007bff;
 }
